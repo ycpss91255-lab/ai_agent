@@ -2,7 +2,7 @@
 
 # AI Agent 開發環境
 
-[![CI](https://github.com/ycpss91255-docker/ai_agent/actions/workflows/main.yaml/badge.svg)](https://github.com/ycpss91255-docker/ai_agent/actions/workflows/main.yaml) [![License](https://img.shields.io/badge/License-Apache--2.0-blue?style=flat-square)](../LICENSE)
+[![CI](https://github.com/ycpss91255-lab/ai_agent/actions/workflows/main.yaml/badge.svg)](https://github.com/ycpss91255-lab/ai_agent/actions/workflows/main.yaml) [![License](https://img.shields.io/badge/License-Apache--2.0-blue?style=flat-square)](../LICENSE)
 
 Docker-in-Docker (DinD) AI 代理開發容器，預裝 Claude Code、Gemini CLI 與 OpenAI Codex CLI。提供 CPU 與 NVIDIA GPU 兩種版本，以非 root 用戶運行，並自動對應主機的 UID/GID。
 
@@ -236,7 +236,7 @@ rm .env.keys
 
 ```bash
 git subtree add --prefix=docker/ai_agent \
-    https://github.com/ycpss91255-docker/ai_agent.git main --squash
+    https://github.com/ycpss91255-lab/ai_agent.git main --squash
 ```
 
 加入後的目錄結構範例：
@@ -280,7 +280,7 @@ cd docker/ai_agent
 
 ```bash
 git subtree pull --prefix=docker/ai_agent \
-    https://github.com/ycpss91255-docker/ai_agent.git main --squash
+    https://github.com/ycpss91255-lab/ai_agent.git main --squash
 ```
 
 > **注意事項**：

@@ -2,7 +2,7 @@
 
 # AI Agent 開発環境
 
-[![CI](https://github.com/ycpss91255-docker/ai_agent/actions/workflows/main.yaml/badge.svg)](https://github.com/ycpss91255-docker/ai_agent/actions/workflows/main.yaml) [![License](https://img.shields.io/badge/License-Apache--2.0-blue?style=flat-square)](../LICENSE)
+[![CI](https://github.com/ycpss91255-lab/ai_agent/actions/workflows/main.yaml/badge.svg)](https://github.com/ycpss91255-lab/ai_agent/actions/workflows/main.yaml) [![License](https://img.shields.io/badge/License-Apache--2.0-blue?style=flat-square)](../LICENSE)
 
 Docker-in-Docker (DinD) AI エージェント開発コンテナ。Claude Code、Gemini CLI、OpenAI Codex CLI がプリインストールされています。CPU と NVIDIA GPU の2つのバリアントを提供し、非 root ユーザーで実行され、ホストの UID/GID を自動的にマッチングします。
 
@@ -236,7 +236,7 @@ rm .env.keys
 
 ```bash
 git subtree add --prefix=docker/ai_agent \
-    https://github.com/ycpss91255-docker/ai_agent.git main --squash
+    https://github.com/ycpss91255-lab/ai_agent.git main --squash
 ```
 
 追加後のディレクトリ構造の例：
@@ -280,7 +280,7 @@ subtree が `my_project/docker/ai_agent/` にある場合：
 
 ```bash
 git subtree pull --prefix=docker/ai_agent \
-    https://github.com/ycpss91255-docker/ai_agent.git main --squash
+    https://github.com/ycpss91255-lab/ai_agent.git main --squash
 ```
 
 > **注意事項**：
